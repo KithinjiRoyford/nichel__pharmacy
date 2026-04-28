@@ -76,6 +76,7 @@ const GetProducts = () => {
             <h3>Available Products</h3>
             <h5 className="text-warning">{loading}</h5>
             <h5 className="text-danger">{error}</h5>
+            <h5 className="text-success">{success}</h5>
 
             {/* map/loop over the product array to access one at a time */}
 
